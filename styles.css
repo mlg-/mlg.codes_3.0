@@ -1,0 +1,28 @@
+body {
+font-family: 'Sorts Mill Goudy', serif;
+}
+
+blockquote {
+	padding-top: 30px;
+	font-size: 30px;
+	text-align: center;
+}
+
+p {
+	font-size: 13px;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: #7B1C16;
+}
+
+.displayed {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%;
+}
