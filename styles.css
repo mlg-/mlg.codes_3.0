@@ -24,8 +24,8 @@ main {
 }
 
 img {
-  width: min(360px, 80vw);
-  height: min(360px, 80vw);
+  width: min(390px, 85vw);
+  height: min(390px, 85vw);
   border-radius: 50%;
   object-fit: cover;
   object-position: bottom;
@@ -33,6 +33,7 @@ img {
 }
 
 p {
+  text-align: left;
   font-size: 1rem;
   line-height: 1.7;
   margin: 0 0 1rem;
@@ -44,12 +45,13 @@ p {
 }
 
 a {
-  color: #7B1C16;
+  color: #aaa;
   text-decoration: none;
 }
 
 a:hover {
-  text-decoration: underline;
+  color: #7B1C16;
+  text-decoration: none;
 }
 
 blockquote {
@@ -61,6 +63,34 @@ blockquote {
 
 cite {
   font-style: normal;
+}
+
+.social {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1rem;
+  font-size: 0.85rem;
+  color: #aaa;
+}
+
+.social a {
+  color: #aaa;
+}
+
+.social a:hover {
+  color: #7B1C16;
+  text-decoration: none;
+}
+
+.archival {
+  font-size: 0.85rem;
+  color: #aaa;
+  font-style: italic;
+  margin-bottom: 2rem;
+}
+
+.poem {
+  text-align: left;
 }
 
 /* Article pages */
