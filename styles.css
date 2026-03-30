@@ -9,7 +9,7 @@ body {
   align-items: center;
   justify-content: center;
   font-family: 'Sorts Mill Goudy', serif;
-  background: #fff;
+  background: #faf9f7;
   color: #222;
 }
 
@@ -34,7 +34,7 @@ img {
 
 p {
   text-align: left;
-  font-size: 1rem;
+  font-size: 1.05rem;
   line-height: 1.7;
   margin: 0 0 1rem;
 }
@@ -47,6 +47,7 @@ p {
 a {
   color: #aaa;
   text-decoration: none;
+  transition: color 0.15s ease;
 }
 
 a:hover {
@@ -71,6 +72,7 @@ cite {
   gap: 1rem;
   font-size: 0.85rem;
   color: #aaa;
+  letter-spacing: 0.04em;
 }
 
 .social a {
